@@ -1,0 +1,201 @@
+/* Reset */
+/*
+    Main-color :  #FED136
+*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Texturina', serif;
+}
+
+/* Main Style */
+body,
+html {
+    font-family: 'Nerko One', cursive;
+    line-height: 1.8rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+/* navbar css */
+
+.navbar {
+    background-color: darkblue;
+    color: white;
+    font-size: 1.6rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.navbar .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.navbar .nav-items ul li {
+    display: inline-block;
+    padding: 0px 8px;
+
+}
+
+.navbar .nav-items ul li a:hover {
+    color: yellow;
+
+}
+
+/* first section */
+.first-section ,
+.third-section {
+    padding-top: 30px;
+    background-color: lightgreen;
+padding-bottom: 50px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section .fsection {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.first-section .main-text ,
+.second-section .main-text ,
+.third-section .main-text ,
+.Four-section .main-text {
+    font-family: 'Nerko One', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-section .sub-text ,
+.second-section .sub-text ,
+.third-section .sub-text,
+.Four-section .sub-text {
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.second-section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.second-section div .ssection {
+    width: 33%;
+    margin: 2px;
+
+}
+
+.third-section .about-text div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.third-section .about-text div p{
+    width:30%;
+  padding: 50px;
+
+}
+.third-section .buttondawnload,
+.Four-section .massege-form .button-Contact {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    background-color: lightgreen;
+    align-items: center;
+}
+.third-section .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+  }
+  .third-section .buttondawnload:hover,
+  .Four-section .massege-form .button-Contact:hover {
+   background-color: green;
+  }
+  .Four-section{
+  padding: 50px;
+
+}
+  .Four-section .massege-form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+    width: 50%;
+}
+.Four-section .massege-form form .input-masseg{
+    font-size: 1.5rem;
+    margin: 5px;
+
+}
+.five-section {
+    padding: 50px;
+    background-color:darkslategray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+  }
+  .five-section div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width: 30%;
+
+  }
+  .five-section div .head-title{
+      font-size: 1.8rem;
+      padding-bottom: 10px;
+  }
