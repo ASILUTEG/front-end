@@ -1,70 +1,91 @@
 @charset "UTF-8";
+
 /* Reset */
 /*
     Main-color :  #FED136
 */
-*, 
+*,
 *::after,
-*::before{
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Main Style */
-body , html{
+body,
+html {
     font-family: 'Nerko One', cursive;
     line-height: 1.8rem;
 }
-ul , ol{
+
+ul,
+ol {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
+
 /* Utility Classess*/
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
-.clear{clear: both;}
-.text-white{
+
+.clear {
+    clear: both;
+}
+
+.text-white {
     color: #fff;
 }
-.bg-white{
+
+.bg-white {
     background-color: #fff;
 }
-.text-dark{
+
+.text-dark {
     color: #2f2f2f;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #2f2f2f;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 /* Navbar Style */
-.navbar{
+.navbar {
     padding: 16px 0;
 }
-.navbar .nav-items{
+
+.navbar .nav-items {
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
 }
-.navbar .nav-items .brand a{
+
+.navbar .nav-items .brand a {
     color: #FED136;
     font-size: 2rem;
 }
-.navbar .nav-items .links ul li{
+
+.navbar .nav-items .links ul li {
     display: inline-block;
     padding: 0 8px;
 }
-.navbar .nav-items .links ul li a:hover{
+
+.navbar .nav-items .links ul li a:hover {
     color: #FED136;
 }
+
 /* Showcase Style */
-.showcase{
+.showcase {
     height: 670px;
     /*
     background-image: url('../images/header-bg.jpg');
@@ -74,25 +95,30 @@ a{
     */
     background: url('../images/header-bg.jpg') no-repeat center center/cover;
 }
-.showcase .showcase-content{
+
+.showcase .showcase-content {
     padding-top: 145px;
 }
-.showcase .showcase-content .sub-heading{
+
+.showcase .showcase-content .sub-heading {
     font-size: 1.8rem;
     font-style: italic;
     padding: 25px 0;
     word-spacing: 8px;
     text-shadow: 1px 1px 1px #fff;
 }
+
 .showcase .showcase-content hr,
 .services hr,
-.about hr ,
-.portofolio hr{
+.about hr,
+.portofolio hr,
+.in-touch hr {
     width: 5%;
     margin: 10px auto;
     border: 4px solid #FED136;
 }
-.showcase .showcase-content .mashead-heading{
+
+.showcase .showcase-content .mashead-heading {
     font-size: 4.5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -100,8 +126,9 @@ a{
     text-shadow: 1px 1px 1px #fff;
     padding: 16px 0;
 }
-.showcase .showcase-content button ,
-.about button{
+
+.showcase .showcase-content button,
+.about button {
     border: none;
     font-size: 1.4rem;
     margin-top: 20px;
@@ -112,65 +139,100 @@ a{
     border-radius: 5px;
     background-color: #FED136;
 }
-.showcase .showcase-content button:hover{
+
+.showcase .showcase-content button:hover {
     background-color: #2f2f2f;
     color: #FED136;
 }
+
 /* Services Style */
-.services ,
-.portofolio{
+.services,
+.portofolio,
+.in-touch {
     margin-top: 85px;
 }
-.services h2 ,
+
+.services h2,
 .about h2,
-.portofolio  h2{
+.portofolio h2,
+.in-touch h2 {
     font-size: 3rem;
 }
-.services hr ,
+
+.services hr,
 .about hr,
-.portofolio hr{
+.portofolio hr {
     margin: 25px auto;
 }
-.services .row{
+
+.services .row {
     display: flex;
     margin-top: 40px;
 }
-.services .row .col{
+
+.services .row .col {
     padding: 20px;
 }
-.services .row .col .icon i{
+
+.services .row .col .icon i {
     background-color: #FED136;
     padding: 35px;
     border-radius: 50%;
 }
-.services .row .col h3{
+
+.services .row .col h3 {
     margin: 25px 0;
     font-size: 1.8rem;
 }
+
 /* About Style */
-.about{
+.about {
     margin-top: 35px;
     padding: 65px;
 }
-.about button{
+
+.about button {
     border-radius: 50px;
     font-size: 25px;
     text-transform: capitalize;
 }
-.about button:hover{
+
+.about button:hover {
     background-color: #fff;
     color: #FED136;
 }
+
 /* section portofolio */
 /* images show */
 
-.portofolio .container .show-images{
+.portofolio .container .show-images {
     display: flex;
     flex-direction: row;
     line-height: 0;
     flex-wrap: wrap;
-}
-.portofolio .container .show-images .col img{
-   width:100%;
+    width: 100%;
 }
 
+.portofolio .container .show-images .col img {
+    width: 40%;
+
+}
+/* in touch section */
+.in-touch  .contacts {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 80%;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.three-rem{
+padding: 10px;
+    font-size: 3rem;
+}
+.yellow{
+    color: #FED136;
+}
