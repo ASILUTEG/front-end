@@ -1,0 +1,123 @@
+/* Reset */
+/*
+    Main-color :  #FED136
+*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Texturina', serif;
+}
+
+/* Main Style */
+body,
+html {
+    font-family: 'Nerko One', cursive;
+    line-height: 1.8rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+/* navbar css */
+
+.navbar {
+    background-color:black;
+    color: white;
+    font-size: 1.6rem;
+    height: 4rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.navbar .nav-items  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    
+}
+.navbar .nav-items .logo span {
+color: yellow;
+}
+.navbar .nav-items ul li {
+    display: inline-block;
+    padding: 0px 8px;
+
+}
+
+.navbar .nav-items ul li a:hover {
+    color: yellow;
+
+}
+
+/* first section */
+.first-section ,
+.third-section {
+    padding-top: 30px;
+    background-color: lightgreen;
+padding-bottom: 50px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-section{
+    background: url('../images/main.jpeg') no-repeat center center/cover;
+    height: 700px;
+}
+
+.first-section .fsection {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.first-section .main-text {
+    font-family: 'Nerko One', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-section .sub-text  {
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.first-section .main-text{
+    background-color: black;
+    height: 10rem;
+    ali
+    padding-top: 50px;
+    color: white;
+    width: 70%;
+    
+}
